@@ -34,7 +34,7 @@ with st.spinner(text='Carregando... Aguarde!'):
 st.write('# Análise exploratória previsão de renda')
 
 #Lendo o arquivo csv
-renda = pd.read_csv('C:/Users/Cris/Documents/Python Scripts/Curso/Telemarketing/input/previsao_de_renda.csv')
+renda = pd.read_csv('previsao_de_renda.csv')
 
 renda.data_ref = pd.to_datetime(renda.data_ref)
 
